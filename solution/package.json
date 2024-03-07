@@ -1,0 +1,14 @@
+{
+  "name": "easyxchange",
+  "version": "1.0.0",
+  "description": "vehicle registration system",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "quantumbunny",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
