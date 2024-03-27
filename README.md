@@ -28,6 +28,7 @@ representing the last registered vehicle's number plate.
   * Register will be called as follows:
   * Register B 345 BKL Seretse Goitsebeng Maphiri Khama
   * Note that anything after the number plate is considered the name. In this case the number plate is 'B 345 BKL' and the name is 'Seretse Goitsebeng Maphiri Khama.'
+  * Note that register *should not* print anything to STDOUT while the program is executing. It should only print 'on exit.'
 3. "Issue" will take in a number plate and then print out the number plate that follows the given number plate.
   * Issue will be called as follows:
   * Issue B 999 ABC. This should print B 001 ABD to STDOUT.
@@ -45,9 +46,9 @@ in the example below.
 ## Output
 Given the following input
 ```
-Register B 478 ABK Amantle Montsho
-Issue B 688 BAB. This should immediately print B 689 BAB to STDOUT.
 Register B 689 BAB Festus Mogae
+Issue B 688 BAB. This should immediately print B 689 BAB to STDOUT.
+Register B 478 ABK Amantle Montsho
 Issue B 999 ZZZ. This should immediately print error to STDOUT.
 Register B 419 DBK Nijel Amos
 Issue B 999 BAB. This should immediately print B 001 BAC to STDOUT.
