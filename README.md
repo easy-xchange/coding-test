@@ -71,6 +71,14 @@ Festus Mogae: B 689 BAB
 Nijel Amos: B 419 DBK
 ```
 
+## Submission
+You can submit your coding solution in one of two ways.
+1. By emailing a compressed (zip) file with all of your files to the recruiter that sent you the coding test. Note that
+.RAR or class files will not be accepted or executed due to security.
+2. By submitting a [git
+patch](https://stackoverflow.com/questions/6658313/how-can-i-generate-a-git-patch-for-a-specific-commit). Please do not
+submit a pull request against the repo.
+
 ## Implementing and Packaging Your Solution:
 
 Implement your solution in any programming language you wish, but keep in mind
