@@ -93,6 +93,18 @@ In addition to your code and tests, please also include a README that explains:
 - An overview of your design decisions
 - Why you picked the programming language you used
 - How to run your code and tests, including how to compile it if applicable and
+
+## Final Notes
+I've added this section to give candidates more guidance given the submissions we've received so far.
+1. If you're not sure what language to use then use your strongest language. This will put your best food forward.
+2. To clarify, your submission *SHOULD NOT* print anything else that is not requested to STDOUT.
+2.1 This also means it should not print any welcome or exception messages.
+3. The application should be terminated using ctrl-D, the SIGQUIT signal only.
+
+.RAR or class files will not be accepted or executed due to security.
+2. By submitting a [git
+patch](https://stackoverflow.com/questions/6658313/how-can-i-generate-a-git-patch-for-a-specific-commit). Please do not
+submit a pull request against the repo.
   how to install any dependencies your code may have.
 
   Thank you!
