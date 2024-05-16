@@ -1,6 +1,7 @@
 # EasyXchange Coding Test
 
-Botswana uses an alphanumeric counting system for its number plates.
+Botswana uses an alphanumeric counting system for its [number
+plates](https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Botswana).
 The system follows the pattern B XXX YYY, where X is an integer and Y is an upper case (capital) letter.
 An example number plate is `B 123 ABC`.
 Given this number plate the next vehicle to register for a number plate would get `B 124 ABC.`
@@ -78,9 +79,9 @@ You can submit your coding solution in one of two ways.
 2. By submitting a [git
 patch](https://stackoverflow.com/questions/6658313/how-can-i-generate-a-git-patch-for-a-specific-commit). Please do not
 submit a pull request against the repo.
+.RAR or class files will not be accepted or executed due to security.
 
 ## Implementing and Packaging Your Solution:
-
 Implement your solution in any programming language you wish, but keep in mind
 I may ask you to explain or extend your code.  Please write automated tests
 and include them with your submission. Do not take creative liberties such as superfluous text to STDOUT.
@@ -99,12 +100,7 @@ I've added this section to give candidates more guidance given the submissions w
 1. If you're not sure what language to use then use your strongest language. This will put your best food forward.
 2. To clarify, your submission *SHOULD NOT* print anything else that is not requested to STDOUT.
 2.1 This also means it should not print any welcome or exception messages.
-3. The application should be terminated using ctrl-D, the SIGQUIT signal only.
-
-.RAR or class files will not be accepted or executed due to security.
-2. By submitting a [git
-patch](https://stackoverflow.com/questions/6658313/how-can-i-generate-a-git-patch-for-a-specific-commit). Please do not
-submit a pull request against the repo.
-  how to install any dependencies your code may have.
+3. The application should be terminated using ctrl-D, the SIGQUIT signal only. Any submission that uses "quit," "exit"
+or any other user submitted text will automatically be disqualified.
 
   Thank you!
